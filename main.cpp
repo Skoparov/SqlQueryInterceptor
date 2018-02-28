@@ -54,7 +54,7 @@ project_settings get_settings( int argc, char* argv[] )
     if( argc != args_size )
     {
         throw std::invalid_argument
-        { "Usage: ./sql_query_logger $own_ip $own_port $server_ip $server_port $log_file $db_type\n"
+        { "Usage: ./sql_query_logger $own_ip $own_port $server_ip $server_port $output $db_type\n"
           "Currently avaliable db_types: \"postgres\"" };
     }
 
